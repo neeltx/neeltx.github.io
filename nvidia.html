@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nvidia RTX Graphics Card Comparison</title>
+    <!-- Add any additional meta tags, CSS, or scripts here -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nvidia RTX Graphics Card Comparison</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#graphics-cards">Graphics Cards</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to our Nvidia RTX Graphics Card Comparison Website!</h2>
+            <p>Here you can find detailed comparisons, reviews, and benchmarks of various Nvidia RTX graphics cards to help you make informed purchasing decisions.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Insert information about your website and its purpose here.</p>
+        </section>
+        <section id="graphics-cards">
+            <h2>Graphics Cards</h2>
+            <div class="compare-form">
+                <label for="gpu1">Select GPU 1:</label>
+                <select id="gpu1">
+                    <!-- Populate this dropdown with a list of Nvidia RTX GPUs -->
+                    <option value="rtx3060">Nvidia RTX 3060</option>
+                    <option value="rtx3070">Nvidia RTX 3070</option>
+                    <option value="rtx3080">Nvidia RTX 3080</option>
+                    <option value="rtx3090">Nvidia RTX 3090</option>
+                </select>
+                <label for="gpu2">Select GPU 2:</label>
+                <select id="gpu2">
+                    <!-- Populate this dropdown with a list of Nvidia RTX GPUs -->
+                    <option value="rtx3060">Nvidia RTX 3060</option>
+                    <option value="rtx3070">Nvidia RTX 3070</option>
+                    <option value="rtx3080">Nvidia RTX 3080</option>
+                    <option value="rtx3090">Nvidia RTX 3090</option>
+                </select>
+                <button onclick="compareGPUs()">Compare</button>
+            </div>
+            <!-- Comparison results will be displayed here -->
+            <div id="comparison-results"></div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Insert contact information or a contact form here.</p>
+        </section>
+    </div>
+    <!-- Add any additional scripts or JavaScript code here -->
+    <script src="script.js"></script>
+</body>
+</html>
